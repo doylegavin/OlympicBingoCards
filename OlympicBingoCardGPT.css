@@ -1,0 +1,77 @@
+body {
+    font-family: Paris2024-Variable ;
+    background: url('https://img.olympics.com/images/image/private/t_social_share_thumb/f_auto/primary/x5z6bm4phzraok3rwfzl') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+
+.bingo-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 10px;
+}
+
+.bingo-cell {
+    background-color: #2980b9;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.bingo-cell:hover {
+    background-color: #3498db;
+}
+
+.bingo-cell.completed {
+    background-color: #2ecc71;
+    text-decoration: line-through;
+}
